@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <title>youtube clone</title>
+            <link rel = "stylesheet" href="styles/general.css">
+            <link rel = "stylesheet" href="styles/header.css">
+            <link rel = "stylesheet" href="styles/video.css">
+            <link rel = "stylesheet" href="styles/sidebar.css">
+
+    </head>
+        <body >
+            <header class = "header"> 
+                <div class ="left-section">
+                    <img class="hamburger-menu" src ="icons/hamburger-menu.svg">
+                    <img class="youtube-logo" src="icons/youtube-logo.svg">
+                    
+                </div>
+
+                <div class = "middle-section">               
+                    <input class = "search" type ="text" placeholder="search">
+                    <button class="search-button">
+                        <img class = "search-icon" src="icons/search.svg">
+                        <div class="tooltip">Search</div>
+                    </button>
+                    <button class="voice-button">
+                        <img class = "voice-button-icon" src="icons/voice-search-icon.svg">
+                        <div class="tooltip">Search with voice</div>
+
+                    </button>
+                </div>
+                <div class = "right-section">
+                    <div class="upload-icon-container">
+                        <img class = "upload-icon" src="icons/upload.svg">
+                        <div class="tooltip">create</div>
+
+                    </div>
+                     <div class="youtube-icon-container">
+                        <img class = "youtube-app-icon" src="icons/youtube-apps.svg">
+
+                        <div class="tooltip">Youtube apps</div>
+
+                    </div>                     
+                    <div class="notifications-icon-div">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="tooltip">Notification</div>
+                    <div class="notifications-count">3</div>
+                    </div>
+                    <img class="user-pic" src="channel/unnamed.jpg">
+                    
+                </div>          
+            </header>
+            <nav class="sidebar">
+                <div class="sidebar-link">
+                    <img src ="icons/home.svg">
+                     <div>Home</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/explore.svg">
+                    <div>Explore</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/subscriptions.svg">
+                    <div>Subscriptions</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/originals.svg">
+                    <div>Orginals</div>
+
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/youtube-music.svg">
+                    <div>Youtube Music</div>
+
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/library.svg">
+                    <div>Library</div>
+
+
+                </nav>  
+
+
+
+
+            </main>
+            <section class = "video-grid">
+            <div class = "video-perview">
+                <div class = "thumbnail-row" >  
+                    <a href="https://www.youtube.com/watch?v=DMD2uthghWE&list=RDDMD2uthghWE&start_radio=1" target="_blank">
+                        <img class="thumbnail" src="thumbnail/bob.avif">
+                    </a>
+
+                      <div class="video-time">3.41</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class = "channel">
+                         <a href="https://www.youtube.com/@tseries" target="_blank">
+                           <img class = "pic" src="channel/bob.jpg">
+
+                        </a>
+                    </div>
+                    <div class = "video-info">
+                         <p class = "video-title">  
+                            VARANASI to the WORLD 
+                        </p>
+                        <p class = "video-author">
+                            T-Series
+                        </p>
+                         <p class = "video-view">
+                           31M views · 6 months ago 
+                        </p>
+                 
+                    </div>
+                </div>
+              </div>
+            <div class = "video-perview">
+                <div class = "thumbnail-row" >
+                    <a href="https://www.youtube.com/watch?v=4GPvYMKtrtI" target="_blank">
+                        <img class = "thumbnail" src = "thumbnail/prabhas.avif">
+
+                    </a>  
+                      <div class="video-time">3.47</div>
+
+                </div>
+                <div class = "video-info-grid">
+                    <div class = "channel">
+                        <a href="https://www.youtube.com/@HombaleFilms" target="_blank">
+                           <img class = "pic" src="channel/prabhas.jpg">
+
+                        </a>
+
+                    </div>
+                    <div class = "video-info">
+                         <p class = "video-title">     
+                                Salaar Telugu Trailer
+                        </p>
+                        <p class = "video-author">
+                            Hombale Films
+                        </p>
+                         <p class = "video-view">
+                            54M views · 2 years ago
+                        </p>
+                
+                    </div>
+                </div>
+             </div>
+            <div class = "video-perview">
+                <div class = "thumbnail-row" >
+                    <a href="https://www.youtube.com/watch?v=g3JUbgOHgdw" target="_blank">
+                        <img class = "thumbnail" src = "thumbnail/aa.avif">
+
+                    </a> 
+                      <div class="video-time">2.48</div>
+
+                </div>
+                <div class = "video-info-grid">
+                    <div class = "channel">
+                        <a href="https://www.youtube.com/@MythriMovieMakers" target="_blank">
+                           <img class = "pic" src="channel/aa.jpg">
+
+                        </a>
+                    </div>
+                    <div class = "video-info">
+                         <p class = "video-title">  
+                            Pushpa 2 The Rule Trailer 
+                        </p>
+                        <p class = "video-author">
+                            Mythri Movie Makers
+                        </p>
+                         <p class = "video-view">
+                            68M views · 1 years ago
+                        </p>
+                
+                    </div>
+                </div>
+             </div>
+            <div class = "video-perview">
+                <div class = "thumbnail-row" >
+                    <a href="https://www.youtube.com/watch?v=sF2dj7ycZvA" target="_blank">
+                        <img class = "thumbnail" src = "thumbnail/rc.avif">
+
+                    </a>
+                      
+                     <div class="video-time">3:07</div>
+
+                </div>
+                <div class = "video-info-grid">
+                    <div class = "channel">
+                        <a href="https://www.youtube.com/@VriddhiCinemas" target="_blank">
+                           <img class = "pic" src="channel/rc.jpg">
+
+                        </a>
+                    </div>
+                    <div class = "video-info">
+                         <p class = "video-title">   
+                            Peddi Official Trailer 
+                        </p>
+                        <p class = "video-author">
+                            Vriddhi Cinemas
+                        </p>
+                         <p class = "video-view">
+                            54M views · 6 days ago
+                        </p>
+                
+                    </div>
+                </div>
+             </div>
+            <div class = "video-perview">
+                <div class = "thumbnail-row" >
+                    <a href="https://www.youtube.com/watch?v=bedocP4nRAo" target="_blank">
+                        <img class = "thumbnail" src = "thumbnail/ntr.avif">
+
+                    </a>  
+                      <div class="video-time">4:29</div>
+
+                </div>
+                <div class = "video-info-grid">
+                    <div class = "channel">
+                        <a href="https://www.youtube.com/@MythriMovieMakers" target="_blank">
+                           <img class = "pic" src="channel/aa.jpg">
+
+                        </a>
+                    </div>
+                    <div class = "video-info">
+                         <p class = "video-title">  
+                            Dragon Glimpse - NTR
+                        </p>
+                        <p class = "video-author">  
+                            Mythri Movie Makers
+
+                        </p>
+                         <p class = "video-view">
+                            60M views · 4 days ago
+                        </p>
+                
+                    </div>
+                </div>
+             </div>
+            <div class = "video-perview">
+                <div class = "thumbnail-row" >
+                    <a href="https://www.youtube.com/watch?v=Q1s_CWfGAHk" target="_blank">
+                        <img class = "thumbnail" src = "thumbnail/vd.avif">
+
+                    </a>   
+                      <div class="video-time">2:07</div>
+
+                </div>
+                <div class = "video-info-grid">
+                    <div class = "channel">
+                     <a href="https://www.youtube.com/@dilraju" target="_blank">
+                           <img class = "pic" src="channel/vd.jpg">
+
+                        </a>
+                    </div>
+                    <div class = "video-info">
+                         <p class = "video-title">  
+                            Rowdy Janardhana - Title Glimpse
+                        </p>
+                        <p class = "video-author">
+                            Dil Raju
+                        </p>
+                         <p class = "video-view">
+                            3.6M views · 5 months ago
+                        </p>
+                
+                    </div>
+                </div>
+            </section>
+            </main>
+
+
+
+        </body> 
+</html>
